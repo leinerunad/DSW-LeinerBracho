@@ -99,14 +99,14 @@ header .textos-header{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
+ }
 .imagen-cards{
     width: 24%;
     margin-bottom: 10px;
     height: 400px;
     overflow: hidden;
-    position: relative;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5)
+   position: relative;
+   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5)
 }
 
 .imagen-cards >img {
