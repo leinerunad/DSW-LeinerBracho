@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.box{
+    position: absolute;
+    top: 33%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #F0B429;
+    background: #fff url ("search-icon.png") no-repeat 9px center;
+    width: 60px;
+    transition: all .5s;
+
+}
+input.src:hover{
+    width: 180px;
+    background-color: #fff;
+    border-color: #005883;
+    box-shadow: 0 0 5px #6dcff680;
+}
+
+
+/*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+}
+body{
+    background: #313d52;
+
+}
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family:'Open sans';
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #ce7d35;
+    transition: all .3s;
+}
+/*submenu*/
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}

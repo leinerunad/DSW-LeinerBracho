@@ -1,0 +1,89 @@
+*{margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner{
+    width: 1200px;
+    height: 200px;
+    transition: all .1s ease-in-out;
+    /*animation:banner 7S infinite linear alternate;*/
+    animation: banner 28s infinite linear;
+    border-radius: 1em;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    background-size: 100% 100%;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes banner{
+    0%{
+        background-image: url(../imagenes/logoUNAD.png);
+    }
+    25%{
+        
+            background-image: url(../imagenes/logoUNAD.png);
+        }
+       
+    
+    26%{
+        background-image: url(../imagenes/logo11.jpg);
+        
+
+    }
+    50%{
+        background-image: url(../imagenes/logo11.jpg);
+        
+
+    }
+    51%{
+        background-image: url(../imagenes/logo9.jpg);
+    
+
+    }
+    75%{
+        background-image: url(../imagenes/logo9.jpg);
+        
+
+    }
+    76%{
+        
+        background-image: url(../imagenes/matriculate.jpg);
+
+    }
+    100%{
+        
+        background-image: url(../imagenes/matriculate.jpg);
+
+    }
+}
+
+.capa{
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(0, 22, 40, 0.2);
+
+}
+
+.info{
+    z-index: 1;
+    width: 100%;
+    max-width:550px;
+    text-align:center;
+}
+.info h1{
+    color:#F47920;
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.info p{
+    color:  #005883;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,158 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+   
+   background: #b3b3b3b3;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+    #header{
+        height: 15%;
+        background: #333333;
+        border-radius: 1em;
+        margin: em; 
+    }
+  /*  #nav{
+        height: 10%;
+        background:#424242;
+        border-radius: 1em;
+        margin: 1em;
+    }*/
+#contenido{
+    height: 53%;
+    
+    margin: 1em;
+    
+}
+/*final*/
+/*
+#footer{
+    
+    height: 35%;
+    background: #b3b3b3b3;
+    border-radius: 1em;
+    margin: 1em;
+}
+/*
+#section{
+    height: 95%;
+    width: 71%;
+    background:#808080;
+    border-radius: 1em;
+    float: left;
+    margin: 0.5em;
+}
+/*
+#sopa{
+    
+    height: 5rem;
+   
+    width: 800px;
+    border-radius: 1em;
+    float: left;
+    margin: 0.5em;
+}
+*/
+#aside{
+    height: 95%;
+    width: 25%;
+    background: #b3b3b3;
+
+    float:right;
+    margin:  0.5em;
+}
+.articulo{
+    width: 96%;
+    height: 20%;
+    background: #F0B429;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+/* foto maestria*/
+.mockup{
+
+    object-fit: cover;
+    height: calc(20vh - 20px);
+    
+}
+.bajo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+nav {
+    background-color:#F47920;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+}
+nav ul {
+    float: left;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav h3 {
+    padding: 1rem 2rem;
+    float: left;
+    align-self: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0rem 2rem;
+    line-height: 5rem;
+    color: #0a0a0a;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+    position: absolute;
+    border: 1px solid #333333;
+    background-color: #005883;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li  {
+    width: 100%;
+}
+
+nav ul li ul li a {
+    padding: 1rem 2rem;
+    line-height: unset;
+    white-space: nowrap;
+}
+
+nav ul li ul li a:hover {
+    background-color: #808080;
+}
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+
+    }
+
+}
